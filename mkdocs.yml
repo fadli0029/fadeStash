@@ -11,7 +11,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 markdown_extensions:
-  #better markdown syntax
+  # better markdown syntax
   - pymdownx.betterem
   #for superscripting with ^
   - pymdownx.caret
