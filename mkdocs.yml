@@ -40,11 +40,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
+      primary: deep orange
+      accent: red
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
+      primary: black
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -80,6 +84,9 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.arithmatex:
       generic: true
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js
