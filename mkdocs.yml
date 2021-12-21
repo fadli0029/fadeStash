@@ -1,6 +1,20 @@
 site_name: Muhammad Arsani
 site_url: https://fadli0029.github.io/fadeStash/
 theme:
+  icon:
+    admonition:
+      note: fontawesome/solid/sticky-note
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/info-circle
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/question-circle
+      warning: fontawesome/solid/exclamation-triangle
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
@@ -23,6 +37,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - meta
   # better markdown syntax
   - pymdownx.betterem
@@ -37,6 +53,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:
