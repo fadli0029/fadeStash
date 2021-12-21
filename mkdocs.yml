@@ -1,6 +1,28 @@
 site_name: Muhammad Arsani
 site_url: https://fadli0029.github.io/fadeStash/
+
+nav:
+  - Home: 'index.md'
+  - Projects
+  - Notes: 
+    - Home: 'Notes/index.md'
+    - 'CS70: Discrete Math & Probability Theory | UC Berkeley': 
+      - 'So..What is this?': 'Notes/CS70/index.md'
+      - 'Note 1: Propositional Logic': 'Notes/CS70/n1.md'
+    - 'ECE45: Circuis & Sytstems | UCSD': 'Notes/ECE45/index.md'
+  - Blog: 'Blog/index.md'
+
 theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/images/wolf.png
+  logo: assets/wolf.png
+  font:
+    text: Source Sans Pro
+    code: Source Code Pro
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
   icon:
     admonition:
       note: fontawesome/solid/sticky-note
@@ -26,39 +48,27 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  favicon: assets/images/wolf.png
-  logo: assets/wolf.png
-  font:
-    text: Source Sans Pro
-    code: Source Code Pro
-  name: material
-  custom_dir: overrides
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+
 markdown_extensions:
-  - admonition
-  - pymdownx.details
   - meta
-  # better markdown syntax
-  - pymdownx.betterem
-  #for superscripting with ^
-  - pymdownx.caret
-  #for highlighting with ==
-  - pymdownx.mark
-  #for subscripting with ~
-  - pymdownx.tilde
-  - pymdownx.snippets
+  - def_list
   - attr_list
+  - admonition
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.betterem
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
-  #code block syntax highlighting
   - pymdownx.highlight:
       use_pygments: true
       linenums: true
@@ -68,14 +78,14 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.inlinehilite
-  - pymdownx.smartsymbols
   - pymdownx.arithmatex:
       generic: true
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 extra:
   disqus: fadestash
 
