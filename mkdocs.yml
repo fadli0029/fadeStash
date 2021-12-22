@@ -97,7 +97,5 @@ extra_javascript:
 extra:
   disqus: fadestash
 
-plugins:
-  - social
 
 
