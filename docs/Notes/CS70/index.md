@@ -14,6 +14,6 @@ Feel free to use them if they help  🙂!
 
 Oh one more thing,  
 
-!!! Quote "[@Alistar Sinclair](https://people.eecs.berkeley.edu/~sinclair/) & [@Yun S. Song ](http://people.eecs.berkeley.edu/~yss/)"
+!!! Quote "To [Alistar Sinclair](https://people.eecs.berkeley.edu/~sinclair/) & [Yun S. Song ](http://people.eecs.berkeley.edu/~yss/)"
     __Thank you for making the site public! 🥰🥰🥰__
 
