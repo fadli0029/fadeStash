@@ -6,9 +6,9 @@ nav:
   #- Projects 
   - Notes: 
     - Home: 'Notes/index.md'
-    - 'CS70: Discrete Math & Probability Theory | UC Berkeley': 
-      - 'So..What is this?': 'Notes/CS70/index.md'
-      - 'Note 1: Propositional Logic': 'Notes/CS70/n1.md'
+    #- 'CS70: Discrete Math & Probability Theory | UC Berkeley': 
+      #- 'So..What is this?': 'Notes/CS70/index.md'
+      #- 'Note 1: Propositional Logic': 'Notes/CS70/n1.md'
     #- 'ECE45: Circuis & Sytstems | UCSD': 'Notes/ECE45/index.md'
   #- Blog: 'Blog/index.md'
 
