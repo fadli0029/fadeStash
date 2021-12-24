@@ -17,7 +17,7 @@ hide:
 </br>
 
 <center>
-# __Projects__ 😎  
+# __Projects__ 🛠  
 <table>
   <tr>
     <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
