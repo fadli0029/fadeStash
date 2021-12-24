@@ -1,6 +1,6 @@
 <center>
-#__Smart Wearable That Measures Heart Rate   💓, Displays Weather Forecast   ☔, Count Steps   🚶, and Time & Date   🕑__
-<!--[__GitHub__ :fontawesome-brands-github:](https://github.com/fadli0029/finalproject/tree/main/Project){ .md-button .md-button--primary }-->
+!!! quote ""
+    #<b>__Smart Wearable That Measures Heart Rate   💓, Displays Weather Forecast   ☔, Count Steps   🚶, and Time & Date   🕑__</b>
 </center>
 
 ##__So..what is this? 🤔__  

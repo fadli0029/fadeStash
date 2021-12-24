@@ -1,6 +1,8 @@
 <center>
-#__Game Controller that plays Space Invader   :space_invader: and MineSweeper   :bomb:__
-[__GitHub__ :fontawesome-brands-github:](https://github.com/fadli0029/finalproject/tree/main/Project){ .md-button .md-button--primary }
+!!! quote ""
+    </br>
+    #<b>__Game Controller that plays Space Invader   :space_invader: and MineSweeper   :bomb:__</b>
+    [__GitHub__ :fontawesome-brands-github:](https://github.com/fadli0029/finalproject/tree/main/Project){ .md-button .md-button--primary }
 </center>
 
 ##__So..what is this? 🤔__  

@@ -1,8 +1,10 @@
 <center>
-#__Self-Driving RC Car Powered by JETSON NANO__
-👑   __Featured on [NVIDIA community Jetson Projects page](https://developer.nvidia.com/embedded/community/jetson-projects#mjolnir_autonomous_1_10_ros_car)__   👑  
-
-[__Documentation__   📑](https://guitar.ucsd.edu/maeece148/index.php/2021SpringTeam1){ .md-button .md-button--primary } [__Mjolnir Kit__ - GitHub :fontawesome-brands-github:](https://github.com/ArthurDassier/Mjolnir_kit){ .md-button .md-button--primary }
+!!! quote ""
+    </br>
+    #<b>__Self-Driving RC Car Powered by JETSON NANO__</b>
+    ##<b>👑  __Featured on [NVIDIA community Jetson Projects page](https://developer.nvidia.com/embedded/community/jetson-projects#mjolnir_autonomous_1_10_ros_car)__  👑</b>  
+    
+    [__Documentation__   📑](https://guitar.ucsd.edu/maeece148/index.php/2021SpringTeam1){ .md-button .md-button--primary } [__Mjolnir Kit__ - GitHub :fontawesome-brands-github:](https://github.com/ArthurDassier/Mjolnir_kit){ .md-button .md-button--primary }
 </center>
 
 ##__So..what is this? 🤔__  
