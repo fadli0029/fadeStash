@@ -31,11 +31,6 @@ I made a wearable watch that can measure your heart rate, displays weather forec
 ---  
 
 ##__Features   🌟__  
-!!! info inline end
-
-    This is just a very brief write-up of the project. __The full, detailed, documentation
-    can be found [here](https://github.com/fadli0029/finalproject/tree/main/Project)__
-
 - Measures __live heart rate__ through data collected by __photodetector__. __Digital Signal Processing__ is then applied on this data to be __trained via Gaussian Mixture Training (GMM)__, and validated with __Leave-One-Subject-Out-Validation (LOSOV) method__.
 - Measures __steps count__ via applying __Digital Signal Processing__ on __Accelerometer data__.
 - Provides __Live Weather Forecast__ and __Time & Date display__, achieved through __OpenWeather Map API__.
