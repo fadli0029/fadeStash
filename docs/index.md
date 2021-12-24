@@ -22,49 +22,25 @@ hide:
   <tr>
     <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
     <b><center><a href="Projects/AutonomousRCCar/">AUTONOMOUS RC CAR  🚗</a></center></b> 
-    <center>Super short description</center> 
+    <center>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</center> 
+    </br>
     <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b> 
     </td>
     <td> <img src="Projects/GameController/images/spaceinvader.gif" width="400" height"400"> 
     <b><center><a href="Projects/GameController/">GAME CONTROLLER  🎮</a></center></b> 
-    <center>Super short description</center> 
+    <center>A game controller made with ESP32, accelerometer, OLED display, and more. It's capable of playing both Space Invader and Mine Sweeper game.          </center>
+    </br>
     <b><center><a href="Projects/GameController/">👉 Read More</a></center></b> 
     </td>
     <td> <img src="Projects/SmartWearable/images/wearableNOML.gif" width="400" height"400"> 
     <b><center><a href="Projects/SmartWearable/">SMART WEARABLE  ⌚</a></center></b> 
-    <center>Super short description</center> 
+    <center>This wearable has multiple features, such as measuring heart rate and steps count, retrieving real-time weather forecast, and showing time & date.   </center>
+    </br>
     <b><center><a href="Projects/SmartWearable/">👉 Read More</a></center></b> 
     </td>
   </tr> 
 </table>
 </center>
-
-<!--
-<center>
-# __Projects__ 😎  
-!!! quote ""  
-    </br>
-    <table>
-      <tr>
-        <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
-        <b><center>[Autonomous RC Car  🚗](Projects/AutonomousRCCar/index.md)</center></b> 
-        <center>Super short description</center> 
-        <b><center>[:fontawesome-regular-arrow-alt-circle-right: Read More](Projects/AutonomousRCCar/index.md)</center></b> 
-        </td>
-        <td> <img src="Projects/GameController/images/spaceinvader.gif" width="400" height"400"> 
-        <b><center>[Game Controller  🎮](Projects/GameController/index.md)</center></b> 
-        <center>Super short description</center> 
-        <b><center>[:fontawesome-regular-arrow-alt-circle-right: Read More](Projects/GameController/index.md)</center></b> 
-        </td>
-        <td> <img src="Projects/SmartWearable/images/wearableNOML.gif" width="400" height"400"> 
-        <b><center>[Smart Wearable  ⌚](Projects/SmartWearable/index.md)</center></b> 
-        <center>Super short description</center> 
-        <b><center>[:fontawesome-regular-arrow-alt-circle-right: Read More](Projects/SmartWearable/index.md)</center></b> 
-        </td>
-      </tr> 
-    </table>
-</center>
--->
 
 </br>  
 

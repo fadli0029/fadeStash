@@ -1,7 +1,7 @@
 <center>
 !!! quote ""
     </br>
-    #<b>__Game Controller that plays Space Invader   :space_invader: and MineSweeper   :bomb:__</b>
+    #<b>__Game Controller that plays Space Invader   :space_invader: and Mine Sweeper   :bomb:__</b>
     [__GitHub__ :fontawesome-brands-github:](https://github.com/fadli0029/finalproject/tree/main/Project){ .md-button .md-button--primary }
 </center>
 

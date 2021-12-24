@@ -32,7 +32,7 @@ Meet Harold   :red_car:  , an RC Car, capable of driving autonomously whilst mai
     This is just a very brief write-up of the project. __The full, detailed, documentation
     can be found [here](https://guitar.ucsd.edu/maeece148/index.php/2021SpringTeam1)__  
 
-- Uses a custom __ROS Package__ which utilizes [__OpenCV__](https://opencv.org/), we call it [__Mjolnir Kit__](https://github.com/ArthurDassier/Mjolnir_kit), allowing it to __detect lines and lanes__, to stay on the track and to switch lanes when needed.  
+- Uses a custom __[ROS](https://www.ros.org/) Package__ which utilizes [__OpenCV__](https://opencv.org/), we call it [__Mjolnir Kit__](https://github.com/ArthurDassier/Mjolnir_kit), allowing it to __detect lines and lanes__, to stay on the track and to switch lanes when needed.  
 👉  [__:fontawesome-brands-github-square: GitHub__](https://github.com/ArthurDassier/Mjolnir_kit)
 - The brain of the car is the powerful [__Jetson NANO__](https://developer.nvidia.com/embedded/jetson-nano-developer-kit).
 - It also features a [__PID Controller App__](https://guitar.ucsd.edu/maeece148/index.php/2021SpringTeam1#Phone_App), which allows user to __tune the PID of the car__, live while it's driving. This is achieved via [__MQTT protocol__](https://mqtt.org/) and a [__PID Controller class__](https://github.com/ArthurDassier/Mjolnir_kit/blob/master/scripts/class_PIDController.py).
