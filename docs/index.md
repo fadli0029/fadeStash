@@ -4,45 +4,79 @@ hide:
   - toc
 ---
 
-!!! tip inline end "Dark/Light Mode: Click the moon/sun icon on the top right"
-> # __About Me 😎__  
+<center>
+# __About Me__ 😎
+!!! quote ""
+    </br>
+    __I am an Electrical Engineering student, studying at the [University of California San Diego](https://ucsd.edu/)  🔱.__  
+    __My passion is the field of EECS, particularly the intersection of Machine Learning  🧠, Autonomous Vehicle 🚗, & Robotics  🤖.__  
 
-<!--NOTE: FIX THIS! MAKE IT SIMPLER, or put it in about section on another page-->
+    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }
+</center>
 
-__I am an Electrical Engineering student, studying at the [University of California San Diego](https://ucsd.edu/)  🔱.__  
+</br>
 
-__I have a passion for the field of EECS, particularly Autonomous Vehicle 🚗, Machine Learning  🧠,  and Robotics  🤖.__  
+<center>
+# __Projects__ 😎  
+<table>
+  <tr>
+    <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
+    <b><center><a href="Projects/AutonomousRCCar/">AUTONOMOUS RC CAR  🚗</a></center></b> 
+    <center>Super short description</center> 
+    <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b> 
+    </td>
+    <td> <img src="Projects/GameController/images/spaceinvader.gif" width="400" height"400"> 
+    <b><center><a href="Projects/GameController/">GAME CONTROLLER  🎮</a></center></b> 
+    <center>Super short description</center> 
+    <b><center><a href="Projects/GameController/">👉 Read More</a></center></b> 
+    </td>
+    <td> <img src="Projects/SmartWearable/images/wearableNOML.gif" width="400" height"400"> 
+    <b><center><a href="Projects/SmartWearable/">SMART WEARABLE  ⌚</a></center></b> 
+    <center>Super short description</center> 
+    <b><center><a href="Projects/SmartWearable/">👉 Read More</a></center></b> 
+    </td>
+  </tr> 
+</table>
+</center>
 
-__Okay that's all  🙄.__  
-
-__Oh wait..actually here:__  
-
-[Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }
-[GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }
+<!--
+<center>
+# __Projects__ 😎  
+!!! quote ""  
+    </br>
+    <table>
+      <tr>
+        <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
+        <b><center>[Autonomous RC Car  🚗](Projects/AutonomousRCCar/index.md)</center></b> 
+        <center>Super short description</center> 
+        <b><center>[:fontawesome-regular-arrow-alt-circle-right: Read More](Projects/AutonomousRCCar/index.md)</center></b> 
+        </td>
+        <td> <img src="Projects/GameController/images/spaceinvader.gif" width="400" height"400"> 
+        <b><center>[Game Controller  🎮](Projects/GameController/index.md)</center></b> 
+        <center>Super short description</center> 
+        <b><center>[:fontawesome-regular-arrow-alt-circle-right: Read More](Projects/GameController/index.md)</center></b> 
+        </td>
+        <td> <img src="Projects/SmartWearable/images/wearableNOML.gif" width="400" height"400"> 
+        <b><center>[Smart Wearable  ⌚](Projects/SmartWearable/index.md)</center></b> 
+        <center>Super short description</center> 
+        <b><center>[:fontawesome-regular-arrow-alt-circle-right: Read More](Projects/SmartWearable/index.md)</center></b> 
+        </td>
+      </tr> 
+    </table>
+</center>
+-->
 
 </br>  
 
-> # __What's up with this documentation-style personal website? 🔍__
+---
 
-A while ago, I made a website in pure `html`, `css`, and `javascript`. It's pretty good, as you can see in the `gif`:  
-
-<img src="assets/images/oldwebsite.gif" width="400" height="400"/>  
-
-But something is missing 🤔.  
-
-I don't have a blog page, and I like to keep my notes online, or more accurately: I need something that is quick and easy to maintain, i.e: version control.  
-And one more thing, no one can argue that "maitaining" a website in `markdown` is the most ideal thing to do for tech (developers) people. Increase 🚀 productivity, faster 💨, less headache 🚫 🤒.  
-
-__The solution__: I resorted to [MkDocs](https://www.mkdocs.org), a famous static website generator built in `Python`, usually meant for project documentation. The [Material](https://github.com/squidfunk/mkdocs-material) theme add the 🍒 on top perfectly!  
-That said, enjoy my new site 🕺!  
-
-</br>  
-
-> # __Navigating in this website🗺__
+<center>
+### __Navigating in this website  🗺__
 
 * __`Blog`__ - Where I will post (well hopefully) tech-related stuffs like guides, academics, etc.
 * __`Notes`__ - Hopefully no more writing on papers. You can use my notes freely, and I hope they're useful!
 * __`Projects`__ - Seriously, take a look at them.
 * Press ++slash++ key to search for anything and everything in the __entire__ website.
+</center>
 
 
