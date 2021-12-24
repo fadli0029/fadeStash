@@ -4,7 +4,6 @@ site_url: https://fadli0029.github.io/fadeStash/
 nav:
   - Home: 'index.md'
   - Projects:
-    - 'Projects Overview   🤩': 'Projects/index.md'
     - 'Autonomous RC Car   🚗': 'Projects/AutonomousRCCar/index.md'
     - 'Game Controller   🎮': 'Projects/GameController/index.md'
     - 'Smart Wearable   ⌚': 'Projects/SmartWearable/index.md'
@@ -25,7 +24,10 @@ theme:
     text: Source Sans Pro
     code: Source Code Pro
   features:
+    - header.autohide
+    - announce.dismiss
     - navigation.tabs
+    - navigation.top
     - navigation.tabs.sticky
   icon:
     admonition:
@@ -74,6 +76,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:
