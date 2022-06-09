@@ -7,7 +7,7 @@ nav:
     - 'Autonomous RC Car   🚗': 'Projects/AutonomousRCCar/index.md'
     - 'Game Controller   🎮': 'Projects/GameController/index.md'
     - 'Smart Wearable   ⌚': 'Projects/SmartWearable/index.md'
-  - Miscellaneous: 'index.md'
+  - Miscellaneous: 'Miscellaneous/index.md'
   #- Notes: 
     #- Home: 'Notes/index.md'
     #- 'CS70: Discrete Math & Probability Theory | UC Berkeley': 
