@@ -33,13 +33,13 @@ theme:
     - navigation.tabs.sticky
   icon:
     admonition:
-      note: fontawesome/brands/sticky-note
+      note: fontawesome/brands/note-sticky
       abstract: fontawesome/solid/book
-      info: fontawesome/solid/info-circle
+      info: fontawesome/solid/circle-info
       tip: fontawesome/solid/bullhorn
       success: fontawesome/solid/check
-      question: fontawesome/solid/question-circle
-      warning: fontawesome/solid/exclamation-triangle
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
       failure: fontawesome/solid/bomb
       danger: fontawesome/solid/skull
       bug: fontawesome/solid/robot
@@ -107,6 +107,3 @@ extra_javascript:
 
 extra:
   disqus: fadestash
-
-
-
