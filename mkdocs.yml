@@ -33,7 +33,7 @@ theme:
     - navigation.tabs.sticky
   icon:
     admonition:
-      note: fontawesome/brands/note-sticky
+      note: fontawesome/solid/note-sticky
       abstract: fontawesome/solid/book
       info: fontawesome/solid/circle-info
       tip: fontawesome/solid/bullhorn
