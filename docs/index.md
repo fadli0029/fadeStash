@@ -21,6 +21,22 @@ hide:
 <center>
 # __Experience__ 💼
 <table>
+<tr>
+  <td>
+    TEXT HERE
+    <br/>
+    TEXT HERE
+    <br/>
+    TEXT HERE
+  </td>
+  <td><img src="Projects/AutonomousRCCar/images/corneringros.gif" width="600" height"600"></td>
+</tr>
+<!--<tr>-->
+<!--<td><img src="http://placehold.it/250x150"></td>-->
+<!--</tr>-->
+</table>
+
+<table>
   <tr>
     <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="800" height"800"> 
     <b><center><a href="Projects/AutonomousRCCar/">AUTONOMOUS RC CAR  🚗</a></center></b> 
