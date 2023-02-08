@@ -11,7 +11,7 @@ hide:
     __I am an Electrical Engineering student at the [University of California San Diego](https://ucsd.edu/)  🔱.__  
     __My passion is the field of EECS, particularly the intersection of Machine Learning  🧠, Autonomous Vehicle 🚗, & Robotics  🤖.__  
 
-    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }
+    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](Resume_v9.pdf){ .md-button .md-button--primary }
 </center>
 
 </br>
@@ -19,44 +19,19 @@ hide:
 ---
 
 <center>
-# __Experience__ 💼
+# __Experiences__ 💼
 <table>
 <tr>
   <td>
-    TEXT HERE
+    An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.
     <br/>
-    TEXT HERE
+    An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.
     <br/>
-    TEXT HERE
+    An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.
   </td>
   <td><img src="Projects/AutonomousRCCar/images/corneringros.gif" width="600" height"600"></td>
 </tr>
-<!--<tr>-->
-<!--<td><img src="http://placehold.it/250x150"></td>-->
-<!--</tr>-->
 </table>
-
-<table>
-  <tr>
-    <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="800" height"800"> 
-    <b><center><a href="Projects/AutonomousRCCar/">AUTONOMOUS RC CAR  🚗</a></center></b> 
-    <center>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</center> 
-    </br>
-    <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b> 
-    </td>
-  </tr> 
-</table>
-<table>
-  <tr>
-    <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="800" height"800"> 
-    <b><center><a href="Projects/AutonomousRCCar/">AUTONOMOUS RC CAR  🚗</a></center></b> 
-    <center>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</center> 
-    </br>
-    <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b> 
-    </td>
-  </tr> 
-</table>
-</center>
 
 </br>
 
