@@ -11,7 +11,7 @@ hide:
     __I am an Electrical Engineering student at the [University of California San Diego](https://ucsd.edu/)  🔱.__  
     __My passion is the field of EECS, particularly the intersection of Machine Learning  🧠, Autonomous Vehicle 🚗, & Robotics  🤖.__  
 
-    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](Resume_V9.pdf){ .md-button .md-button--primary }
+    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](Resume_V10.pdf){ .md-button .md-button--primary }
 </center>
 
 </br>
@@ -25,19 +25,21 @@ hide:
   <td>
     <h1>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h1>
     <h3>Research Software Engineer</h3>
-    <h5>January 2023 - current</h5>
+    <b>January 2023 - current</b>
+    </br>
     What did you do in this job
   </td>
-  <td><img src="images/exp_pyrc3d.gif" width="600" height"600"></td>
+  <td><img src="images/exp_pyrc3d.gif" width="600" height"400"></td>
 </tr>
 <tr>
   <td>
     <h1>Autonomy Lab at Contextual Robotics Institute UC San Diego</h1>
     <h3>Research & Software Engineer Intern</h3>
-    <h5>March 2022 - September 2022</h5>
+    <b>March 2022 - September 2022</b>
+    </br>
     What did you do in this job
   </td>
-  <td><img src="images/exp_quadruped.gif" width="600" height"600"></td>
+  <td><img src="images/exp_quadruped.gif" width="600" height"400"></td>
 </tr>
 </table>
 
