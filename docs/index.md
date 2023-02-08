@@ -11,7 +11,7 @@ hide:
     __I am an Electrical Engineering student at the [University of California San Diego](https://ucsd.edu/)  🔱.__  
     __My passion is the field of EECS, particularly the intersection of Machine Learning  🧠, Autonomous Vehicle 🚗, & Robotics  🤖.__  
 
-    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](Resume_v9.pdf){ .md-button .md-button--primary }
+    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](Resume_V9.pdf){ .md-button .md-button--primary }
 </center>
 
 </br>
@@ -23,11 +23,25 @@ hide:
 <table>
 <tr>
   <td>
-    An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.
+    <h2>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h2>
     <br/>
-    An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.
+    <h4>Research Software Engineer</h4>
     <br/>
-    An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.
+    <h6>Full-Time</h6>
+    <br/>
+    What did you do in this job
+  </td>
+  <td><img src="Projects/AutonomousRCCar/images/corneringros.gif" width="600" height"600"></td>
+</tr>
+<tr>
+  <td>
+    <b>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</b>
+    <br/>
+    <b>Research Software Engineer</b>
+    <br/>
+    <b>Full-Time</b>
+    <br/>
+    What did you do in this job
   </td>
   <td><img src="Projects/AutonomousRCCar/images/corneringros.gif" width="600" height"600"></td>
 </tr>
