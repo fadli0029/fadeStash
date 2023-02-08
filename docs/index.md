@@ -23,27 +23,21 @@ hide:
 <table>
 <tr>
   <td>
-    <h2>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h2>
-    <br/>
-    <h4>Research Software Engineer</h4>
-    <br/>
-    <h6>Full-Time</h6>
-    <br/>
+    <h1>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h1>
+    <h3>Research Software Engineer</h3>
+    <h5>January 2023 - current</h5>
     What did you do in this job
   </td>
-  <td><img src="Projects/AutonomousRCCar/images/corneringros.gif" width="600" height"600"></td>
+  <td><img src="images/exp_pyrc3d.gif" width="600" height"600"></td>
 </tr>
 <tr>
   <td>
-    <b>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</b>
-    <br/>
-    <b>Research Software Engineer</b>
-    <br/>
-    <b>Full-Time</b>
-    <br/>
+    <h1>Autonomy Lab at Contextual Robotics Institute UC San Diego</h1>
+    <h3>Research & Software Engineer Intern</h3>
+    <h5>March 2022 - September 2022</h5>
     What did you do in this job
   </td>
-  <td><img src="Projects/AutonomousRCCar/images/corneringros.gif" width="600" height"600"></td>
+  <td><img src="images/exp_quadruped.gif" width="600" height"600"></td>
 </tr>
 </table>
 
