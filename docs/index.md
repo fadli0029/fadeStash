@@ -27,7 +27,12 @@ hide:
     <h3>Research Software Engineer</h3>
     <b>January 2023 - current</b>
     </br>
-    What did you do in this job
+    Working on open-source implementations and 3D visualizations of baseline robotics algorithms for localization, mapping, and controls using PyBullet real-time physics simulation. This research project is under <a href="https://natanaso.github.io/">Professor Nikolay Atanasov</a>.
+    <ul>
+        <li>Built implementations & visualizations of baseline <b>robotics algorithms</b> for <b>localization, mapping, & controls</b>.</li>
+        <li>Implemented various robotics algorithms like <b>Particle Filter, SLAM, Kalman Filter, A* search</b>, etc.</li>
+        <li>Programmed the <b>navigation environment</b> in <b>PyBullet real-time physics simulation engine</b>.</li>
+    </ul>
   </td>
   <td><img src="images/exp_pyrc3d.gif" width="600" height"400"></td>
 </tr>
@@ -37,7 +42,14 @@ hide:
     <h3>Research & Software Engineer Intern</h3>
     <b>March 2022 - September 2022</b>
     </br>
-    What did you do in this job
+    I worked as a software engineering intern and an undergraduate research intern for a Research Project at a Robotics Lab in the Jacobs School of Engineering at UC San Diego. The research was on Vision-Guided Quadrupedal Locomotion under <a href="https://xiaolonw.github.io/">Professor Xiaolong Wang</a> group.
+    <ul>
+        <li>Trained a <b>Reinforcement Learning policy</b> on the <b>Unitree A1</b> robot allowing it to traverse challenging terrains.</li>
+        <li>Collected <b>real-world data</b> to bridge the gap between <b>Sim2Real</b> and uncertainties in the real world.</li>
+        <li>Used <b>GPU clusters</b> and other MLOps tools like <b>Kubernetes</b> and <b>WANDB</b> to train the models.</li>
+        <li>Modified our terrains in the <b>NVIDIA Isaac Gym</b>, allowing the robot to adapt to more challenging terrains.</li>
+        <li>Implemented Xbox controller python script that controls the Unitree A1 robot.</li>
+    </ul>
   </td>
   <td><img src="images/exp_quadruped.gif" width="600" height"400"></td>
 </tr>
