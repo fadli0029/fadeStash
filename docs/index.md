@@ -5,6 +5,9 @@ hide:
 ---
 
 <center>
+
+<img src="https://ghchart.rshah.org/409ba5/2016rshah" alt="2016rshah's Blue Github Chart" />
+
 # __About Me__ 😎
 !!! quote ""
     </br>
