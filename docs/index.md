@@ -27,9 +27,10 @@ hide:
 <tr>
   <td>
     <h1>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h1>
-    <h3>Research Software Engineer</h3>
-    <b>January 2023 - current</b>
-    </br>
+    <p><b>Research Software Engineer</b><br/>
+    <br/>
+    <b><i>January 2023 - current</i></b></p><br/>
+    <br/>
     Working on open-source implementations and 3D visualizations of baseline robotics algorithms for localization, mapping, and controls using PyBullet real-time physics simulation. This research project is under <a href="https://natanaso.github.io/">Professor Nikolay Atanasov</a>.
     <ul>
         <li>Built implementations & visualizations of baseline <b>robotics algorithms</b> for <b>localization, mapping, & controls</b>.</li>
