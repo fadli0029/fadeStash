@@ -27,8 +27,8 @@ hide:
 <tr>
   <td>
     <h1>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h1>
-    <p><b>Research Software Engineer</b><br/>
-    <b><i>January 2023 - current</i></b></p><br/>
+    <h3>Research Software Engineer</h3>
+    <b>January 2023 - current</b><br/>
     <br/>
     Working on open-source implementations and 3D visualizations of baseline robotics algorithms for localization, mapping, and controls using PyBullet real-time physics simulation. This research project is under <a href="https://natanaso.github.io/">Professor Nikolay Atanasov</a>.
     <ul>
@@ -43,8 +43,8 @@ hide:
   <td>
     <h1>Autonomy Lab at Contextual Robotics Institute UC San Diego</h1>
     <h3>Research & Software Engineer Intern</h3>
-    <b>March 2022 - September 2022</b>
-    </br>
+    <b>March 2022 - September 2022</b><br/>
+    <br/>
     I worked as a software engineering intern and an undergraduate research intern for a Research Project at a Robotics Lab in the Jacobs School of Engineering at UC San Diego. The research was on Vision-Guided Quadrupedal Locomotion under <a href="https://xiaolonw.github.io/">Professor Xiaolong Wang</a> group.
     <ul>
         <li>Trained a <b>Reinforcement Learning policy</b> on the <b>Unitree A1</b> robot allowing it to traverse challenging terrains.</li>
