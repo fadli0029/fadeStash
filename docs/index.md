@@ -67,7 +67,7 @@ hide:
 <table>
   <tr>
     <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
-    <b><center><a href="Projects/AutonomousRCCar/">AUTONOMOUS RC CAR  🚗</a></center></b> 
+    <b><center><a href="Projects/AutonomousRCCar/">SELF-DRIVING RC CAR  🚗</a></center></b> 
     <center>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</center> 
     </br>
     <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b> 
