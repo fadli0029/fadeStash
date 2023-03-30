@@ -37,7 +37,7 @@ hide:
         <li>Programmed the <b>navigation environment</b> in <b>PyBullet real-time physics simulation engine</b>.</li>
     </ul>
   </td>
-  <td><img src="images/exp_pyrc3d.gif" width="750" height"450"></td>
+  <td><img src="images/pyrc3d_demo_astar.gif" width="750" height"450"></td>
 </tr>
 <tr>
   <td>
