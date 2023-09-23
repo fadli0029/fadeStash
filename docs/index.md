@@ -26,6 +26,24 @@ hide:
 <table>
 <tr>
   <td>
+    <h1>![moss_logo](images/moss_logo.png) Moss Robotics Inc.</h1>
+    <h3>Autonomous Driving Perception Software Engineer Intern</h3>
+    <b>July 2023 - September 2023</b><br/>
+    <br/>
+    I worked as a software engineer intern working on the robot's perception system for autonomous driving.
+    <ul>
+        <li>Overcome limitations of single-scan LiDAR data by implementing a <b>point cloud accumulator</b> module</li>
+        <li>Improved detection output and enabled <b>real-time tracking</b> by developing a <b>multi-sensor fusion</b> module.</li>
+        <li>Automated tree/pot counting and tree block identification by introducing a <b>graph-based</b> approach.</li>
+        <li>Improved <b>tree detection</b> and <b>row-following</b> accuracy with density-based clustering and parallel line fitting.</li>
+        <li>Enabled zero-intervention row-to-row navigation by building an <b>exit detection algorithm</b>.</li>
+        <li>Enhanced real-time performance by enabling <b>multi-threaded, thread-safe</b> perception stack components.</li>
+    </ul>
+  </td>
+  <td><img src="images/moss_internship.gif" width="750" height"450"></td>
+</tr>
+<tr>
+  <td>
     <h1>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h1>
     <h3>Research Software Engineer</h3>
     <b>January 2023 - current</b><br/>
