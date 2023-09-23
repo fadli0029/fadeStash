@@ -26,7 +26,7 @@ hide:
 <table>
 <tr>
   <td>
-    <h1>![moss_logo](images/moss_logo.png) Moss Robotics Inc.</h1>
+    <h1>Moss Robotics Inc.</h1>
     <h3>Autonomous Driving Perception Software Engineer Intern</h3>
     <b>July 2023 - September 2023</b><br/>
     <br/>
