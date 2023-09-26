@@ -14,7 +14,7 @@ hide:
     __I am an Electrical Engineering student at the [University of California San Diego](https://ucsd.edu/)  🔱.__  
     __My passion is the field of EECS, particularly the intersection of Machine Learning  🧠, Autonomous Vehicle 🚗, & Robotics  🤖.__  
 
-    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](RESUME_V19.pdf){ .md-button .md-button--primary }
+    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](RESUME_V20.pdf){ .md-button .md-button--primary }
 </center>
 
 </br>
