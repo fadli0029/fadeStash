@@ -81,7 +81,51 @@ hide:
 ---
 
 <center>
-# __Projects__ 🛠  
+# __Projects__ 🛠
+<table>
+<tr>
+  <td>
+  <center>
+    <h1>Robust Orientation Tracking for Panoramic Stitching: Projected Gradient Descent vs. Extended Kalman Filters</h1>
+    <img src="images/pgd_dataset3.gif"   width="300" height"100">
+    <img src="images/ekf4_dataset3.gif"  width="300" height"100">
+    <img src="images/ekf7_dataset3.gif"  width="300" height"100">
+    <img src="images/vicon_dataset3.gif" width="300" height"100">
+  </center>
+    <br/>
+    <b>Abstract</b><br/>
+    The quest for precise 3D orientation tracking of
+    rotating bodies underpins advancements in robotics, augmented
+    reality, and navigational systems, necessitating methodologies
+    that balance accuracy with computational feasibility. This paper
+    introduces a projected gradient descent (PGD) methodology,
+    innovatively applied to orientation estimation through sensor
+    fusion from a 6-DOF inertial measurement unit (IMU). We
+    undertake a comparative analysis of PGD against established
+    Extended Kalman Filter (EKF) methods—specifically, 4-state and
+    7-state variants—anchored by ground truth data from a VICON
+    motion capture system.
+    Our investigation reveals PGD’s superior accuracy and robustness over EKF approaches across a spectrum of datasets
+    characterized by noise, discontinuities, and dynamic changes.
+    Despite PGD’s reliance on future data, which poses a challenge
+    for real-time application, its performance advantage is notable,
+    especially in complex environments. The 7-state EKF, while
+    outperforming PGD in scenarios with frequent discontinuities,
+    exhibits limitations in smoothness, highlighting a trade-off between responsiveness and continuity. The practical utility of
+    these orientation estimation methods is further demonstrated
+    through the application of panoramic image stitching, where
+    PGD’s enhanced performance is evident, although EKF models
+    provide comparable outcomes under less variable conditions.
+    This study underscores PGD’s potential as a robust alternative
+    for 3D orientation tracking, offering insights into its com-
+    parative performance against traditional EKFs. By delineating
+    the strengths and limitations of PGD and EKF methodologies,
+    this work contributes to the broader discourse on advancing
+    sensor-based orientation estimation, encouraging future efforts
+to optimize PGD for real-time applications.
+  </td>
+</tr>
+</table>
 <table>
   <tr>
     <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
