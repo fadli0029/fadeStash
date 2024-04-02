@@ -8,17 +8,29 @@
   .image-row {
     flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
   }
-  .responsive-image {
+  .orientation-tracking-gifs {
     flex: 0 0 50%; /* Makes each image take up 50% of the container's width */
     max-width: 50%; /* Ensures the image does not exceed 50% of the container's width */
   }
+  .exp-gifs {
+    max-width: 100px; /* Smaller max width for small screens */
+    max-height: 100px; /* Smaller max height for small screens */
+  }
 }
 
-.responsive-image {
+.orientation-tracking-gifs {
   flex: 1; /* Allows the image to grow and shrink as needed */
   width: 0; /* Prevents overflow of the container */
   height: auto; /* Maintains aspect ratio */
   max-width: 100%; /* Ensures the image is not bigger than its natural size */
+  margin: 5px;
+}
+
+.exp-gifs {
+  width: 100%; /* Ensures the image is responsive and adapts to the container's width */
+  height: 100%; /* Maintains the aspect ratio */
+  max-width: 500px; /* Maximum width */
+  max-height: 300px; /* Maximum height */
   margin: 5px;
 }
 
@@ -28,4 +40,3 @@
   align-items: center; /* Align the images vertically */
   flex-wrap: nowrap; /* Prevents wrapping of items */
 }
-
