@@ -11,8 +11,8 @@ hide:
 # __About Me__ 😎
 !!! quote ""
     </br>
-    __I am an Electrical Engineering student at the [University of California San Diego](https://ucsd.edu/)  🔱.__  
-    __My passion is the field of EECS, particularly the intersection of Machine Learning  🧠, Autonomous Vehicle 🚗, & Robotics  🤖.__  
+    __I am an Electrical Engineering student at the [University of California San Diego](https://ucsd.edu/)  🔱.__
+    __My passion is the field of EECS, particularly the intersection of Machine Learning  🧠, Autonomous Vehicle 🚗, & Robotics  🤖.__
 
     [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](RESUME_V25.pdf){ .md-button .md-button--primary }
 </center>
@@ -87,11 +87,13 @@ hide:
   <td>
   <center>
     <h1>Robust Orientation Tracking for Panoramic Stitching: Projected Gradient Descent vs. Extended Kalman Filters</h1>
-    <img src="images/pgd_dataset3.gif"   width="300" height"100">
-    <img src="images/ekf4_dataset3.gif"  width="300" height"100">
-    <img src="images/ekf7_dataset3.gif"  width="300" height"100">
-    <img src="images/vicon_dataset3.gif" width="300" height"100">
   </center>
+    <div class="image-row">
+      <img src="images/pgd_dataset3.gif" class="responsive-image">
+      <img src="images/ekf4_dataset3.gif" class="responsive-image">
+      <img src="images/ekf7_dataset3.gif" class="responsive-image">
+      <img src="images/vicon_dataset3.gif" class="responsive-image">
+    </div>
     <br/>
     <b>Abstract</b><br/>
     The quest for precise 3D orientation tracking of
@@ -128,29 +130,29 @@ to optimize PGD for real-time applications.
 </table>
 <table>
   <tr>
-    <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400"> 
-    <b><center><a href="Projects/AutonomousRCCar/">SELF-DRIVING RC CAR  🚗</a></center></b> 
-    <center>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</center> 
+    <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400">
+    <b><center><a href="Projects/AutonomousRCCar/">SELF-DRIVING RC CAR  🚗</a></center></b>
+    <center>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</center>
     </br>
-    <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b> 
+    <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b>
     </td>
-    <td> <img src="Projects/GameController/images/spaceinvader.gif" width="400" height"400"> 
-    <b><center><a href="Projects/GameController/">GAME CONTROLLER  🎮</a></center></b> 
+    <td> <img src="Projects/GameController/images/spaceinvader.gif" width="400" height"400">
+    <b><center><a href="Projects/GameController/">GAME CONTROLLER  🎮</a></center></b>
     <center>A game controller made with ESP32, accelerometer, OLED display, and more. It's capable of playing both Space Invader and Mine Sweeper game.          </center>
     </br>
-    <b><center><a href="Projects/GameController/">👉 Read More</a></center></b> 
+    <b><center><a href="Projects/GameController/">👉 Read More</a></center></b>
     </td>
-    <td> <img src="Projects/SmartWearable/images/wearableNOML.gif" width="400" height"400"> 
-    <b><center><a href="Projects/SmartWearable/">SMART WEARABLE  ⌚</a></center></b> 
+    <td> <img src="Projects/SmartWearable/images/wearableNOML.gif" width="400" height"400">
+    <b><center><a href="Projects/SmartWearable/">SMART WEARABLE  ⌚</a></center></b>
     <center>This wearable has multiple features, such as measuring heart rate and steps count, retrieving real-time weather forecast, and showing time & date.   </center>
     </br>
-    <b><center><a href="Projects/SmartWearable/">👉 Read More</a></center></b> 
+    <b><center><a href="Projects/SmartWearable/">👉 Read More</a></center></b>
     </td>
-  </tr> 
+  </tr>
 </table>
 </center>
 
-</br>  
+</br>
 
 ---
 

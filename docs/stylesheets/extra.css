@@ -4,4 +4,28 @@
   --md-primary-fg-color--dark:  #FDA65D;
 }
 
+@media (max-width: 768px) {
+  .image-row {
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+  }
+  .responsive-image {
+    flex: 0 0 50%; /* Makes each image take up 50% of the container's width */
+    max-width: 50%; /* Ensures the image does not exceed 50% of the container's width */
+  }
+}
+
+.responsive-image {
+  flex: 1; /* Allows the image to grow and shrink as needed */
+  width: 0; /* Prevents overflow of the container */
+  height: auto; /* Maintains aspect ratio */
+  max-width: 100%; /* Ensures the image is not bigger than its natural size */
+  margin: 5px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Align the images vertically */
+  flex-wrap: nowrap; /* Prevents wrapping of items */
+}
 
