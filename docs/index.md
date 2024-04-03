@@ -5,75 +5,84 @@ hide:
 ---
 
 <center>
-<img src="https://ghchart.rshah.org/ff6e42/fadli0029" alt="2016rshah's Blue Github Chart" />
-    [Linked:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mfarsani/){ .md-button .md-button--primary }  [GitHub :fontawesome-brands-github:](https://github.com/fadli0029){ .md-button .md-button--primary }  [Resume](RESUME_V25.pdf){ .md-button .md-button--primary }
-</center>
-
-</br>
-
-<center>
 # __Experiences__ 💼
-<table>
-    <tr>
-        <td>
-        <center>
-            <h1>Moss Robotics Inc.</h1>
-            <h3>Autonomous Driving Perception Software Engineer Intern</h3>
-            <b>July 2023 - September 2023</b><br/>
-        </center>
-        <div class="image-row">
-            <img src="images/moss_internship.gif" alt="Object Detection" class="exp-gifs">
+</center>
+<div class="image-row">
+    <div class="card" onclick="openModal('Modal1')">
+        <img src="images/moss_internship.gif" alt="Avatar" class="card-img">
+        <div class="container">
+            <h3><b>Moss Robotics Inc.</b></h3>
+            <h4><b>Perception Software Engineer Intern (Autonomous Driving)</b></h4>
+            <h6>July 2023 - September 2023</h6>
         </div>
-            I worked as a software engineer intern working on the robot's perception system for autonomous driving.
-            <ul>
-                <li>Overcome limitations of single-scan LiDAR data by implementing a <b>point cloud accumulator</b> module</li>
-                <li>Improved detection output and enabled <b>real-time tracking</b> by developing a <b>multi-sensor fusion</b> module.</li>
-                <li>Automated tree/pot counting and tree block identification by introducing a <b>graph-based</b> approach.</li>
-                <li>Improved <b>tree detection</b> and <b>row-following</b> accuracy with density-based clustering and parallel line fitting.</li>
-                <li>Enabled zero-intervention row-to-row navigation by building an <b>exit detection algorithm</b>.</li>
-                <li>Enhanced real-time performance by enabling <b>multi-threaded, thread-safe</b> perception stack components.</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <center>
-            <h1>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</h1>
-            <h3>Research Software Engineer</h3>
-            <b>January 2023 - current</b><br/>
-        </center>
-        <div class="image-row">
-            <img src="images/pyrc3d_demo_astar.gif" alt="PyRC3D" class="exp-gifs">
+    </div>
+    <div class="card" onclick="openModal('Modal2')">
+        <img src="images/pyrc3d_demo_astar.gif" alt="Avatar" class="card-img">
+        <div class="container">
+            <h3><b>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</b></h3>
+            <h4><b>Research Software Engineer</b></h4>
+            <h6>January 2023 - current</h6>
         </div>
-            Working on open-source implementations and 3D visualizations of baseline robotics algorithms for localization, mapping, and controls using PyBullet real-time physics simulation. This research project is under <a href="https://natanaso.github.io/">Professor Nikolay Atanasov</a>.
-            <ul>
-                <li>Built implementations & visualizations of baseline <b>robotics algorithms</b> for <b>localization, mapping, & controls</b>.</li>
-                <li>Implemented various robotics algorithms like <b>Particle Filter, SLAM, Kalman Filter, A* search</b>, etc.</li>
-                <li>Programmed the <b>navigation environment</b> in <b>PyBullet real-time physics simulation engine</b>.</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <center>
-            <h1>Autonomy Lab at Contextual Robotics Institute UC San Diego</h1>
-            <h3>Research & Software Engineer Intern</h3>
-            <b>March 2022 - September 2022</b><br/>
-        </center>
-        <div class="image-row">
-            <img src="images/exp_quadruped.gif" alt="Quadruped robot" class="exp-gifs">
+    </div>
+    <div class="card" onclick="openModal('Modal3')">
+        <img src="images/exp_quadruped.gif" alt="Avatar" class="card-img">
+        <div class="container">
+            <h3><b>Autonomy Lab at Contextual Robotics Institute UC San Diego</b></h3>
+            <h4><b>Research & Software Engineer Intern</b></h4>
+            <h6>March 2022 - September 2022</h6>
         </div>
-            I worked as a software engineering intern and an undergraduate research intern for a Research Project at a Robotics Lab in the Jacobs School of Engineering at UC San Diego. The research was on Vision-Guided Quadrupedal Locomotion under <a href="https://xiaolonw.github.io/">Professor Xiaolong Wang</a> group.
-            <ul>
-                <li>Trained a <b>Reinforcement Learning policy</b> on the <b>Unitree A1</b> robot allowing it to traverse challenging terrains.</li>
-                <li>Collected <b>real-world data</b> to bridge the gap between <b>Sim2Real</b> and uncertainties in the real world.</li>
-                <li>Used <b>GPU clusters</b> and other MLOps tools like <b>Kubernetes</b> and <b>WANDB</b> to train the models.</li>
-                <li>Modified our terrains in the <b>NVIDIA Isaac Gym</b>, allowing the robot to adapt to more challenging terrains.</li>
-                <li>Implemented Xbox controller python script that controls the Unitree A1 robot.</li>
-            </ul>
-        </td>
-    </tr>
-</table>
+    </div>
+</div>
+
+<!-- Modal structure (hidden initially) -->
+<div id="Modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('Modal1')">&times;</span>
+        <h3><b>Moss Robotics Inc.</b></h3>
+        <h4><b>Perception Software Engineer Intern (Autonomous Driving)</b></h4>
+        <h6>July 2023 - September 2023</h6>
+        Worked as a software engineer intern working on the robot's perception system for autonomous driving.
+        <ul>
+            <li>Overcome limitations of single-scan <b>LiDAR</b> data by implementing a <b>point cloud accumulator</b> module.</li>
+            <li>Enhanced <b>trees/plants tracking and detection</b> by implementing <b>fast real-time data association algorithm</b>.</li>
+            <li>Improved <b>tree detection</b> and <b>row-following</b> accuracy with <b>deep learning (YOLO)</b> and <b>parallel line fitting</b>.</li>
+            <li>Automated <b>trees/pots counting</b> through <b>tree block identification</b> by introducing a <b>graph-based approach</b>.</li>
+            <li>Optimized real-time performance and efficiency by leveraging <b>ROS2 Components</b> and using <b>Behavior Trees</b>.</li>
+            <li>Developed all the software <b>entirely in C++</b>.
+        </ul>
+  </div>
+</div>
+
+<div id="Modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('Modal2')">&times;</span>
+        <h3><b>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</b></h3>
+        <h4><b>Research Software Engineer</b></h4>
+        <h6>January 2023 - current</h6>
+        Working on open-source implementations and 3D visualizations of baseline robotics algorithms for localization, mapping, and controls using PyBullet real-time physics simulation. This research project is under <a href="https://natanaso.github.io/">Professor Nikolay Atanasov</a>.
+        <ul>
+            <li>Built implementations & visualizations of <b>mobile robot algorithms</b> for <b>localization</b>, <b>mapping</b>, & <b>controls</b>.</li>
+            <li>Implemented various robotics algorithms like <b>Particle Filter</b>, <b>SLAM</b>, <b>A* search</b>, etc.</li>
+            <li>Programmed a <b>navigation environment</b> in <b>PyBullet real-time physics simulation engine</b>.</li>
+        </ul>
+  </div>
+</div>
+
+<div id="Modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('Modal3')">&times;</span>
+        <h3><b>Autonomy Lab at Contextual Robotics Institute UC San Diego</b></h3>
+        <h4><b>Research & Software Engineer Intern</b></h4>
+        <h6>March 2022 - September 2022</h6>
+        Worked as a software engineering intern and an undergraduate research intern for a Research Project at a Robotics Lab in the Jacobs School of Engineering at UC San Diego. The research was on Vision-Guided Quadrupedal Locomotion under <a href="https://xiaolonw.github.io/">Professor Xiaolong Wang</a> group.
+        <ul>
+            <li>Deployed <b>Reinforcement Learning policy</b> on <b>Unitree A1</b> robot allowing it to navigate challenging terrains.</li>
+            <li>Worked with a <b>depth camera (Intel RealSense D435)</b> and other sensors on the robot.</li>
+            <li>Collected <b>real-world data</b> to bridge the gap between <b>Sim2Real</b> and uncertainties in the real world.</li>
+            <li>Utilized <b>GPU clusters</b> and other MLOps tools like <b>Kubernetes</b> and <b>WANDB</b> to train the models.</li>
+        </ul>
+  </div>
+</div>
 
 </br>
 
