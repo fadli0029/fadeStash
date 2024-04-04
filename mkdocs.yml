@@ -25,7 +25,7 @@ theme:
   favicon: assets/images/wolf.png
   logo: assets/wolf.png
   font:
-    text: Source Sans Pro
+    text: Merriweather
     code: Source Code Pro
   features:
     - header.autohide

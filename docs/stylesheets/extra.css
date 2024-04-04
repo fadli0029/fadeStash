@@ -4,16 +4,6 @@
   --md-primary-fg-color--dark:  #FDA65D;
 }
 
-@media (max-width: 768px) {
-  .image-row {
-    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
-  }
-  .orientation-tracking-gifs {
-    flex: 0 0 50%; /* Makes each image take up 50% of the container's width */
-    max-width: 50%; /* Ensures the image does not exceed 50% of the container's width */
-  }
-}
-
 .orientation-tracking-gifs {
   flex: 1; /* Allows the image to grow and shrink as needed */
   width: 0; /* Prevents overflow of the container */
@@ -24,9 +14,9 @@
 
 .image-row {
   display: flex;
+  flex-wrap: nowrap; /* Prevents wrapping of items */
   justify-content: space-around; /* Center the images horizontally */
   align-items: center; /* Align the images vertically */
-  flex-wrap: nowrap; /* Prevents wrapping of items */
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
@@ -39,8 +29,8 @@ img {
   transition: 0.3s;
   border-radius: 5px;
   margin: 5px;
-  width: calc( (100% / 3) - .5rem );
-  height: 470px;
+  width: calc( (100% / 3) - 10px);
+  height: auto;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -53,10 +43,8 @@ img {
 }
 
 .card-img {
-  aspect-ratio: 1/1;
-  object-fit: cover;
   width: 100%;
-  max-height: 200px;
+  object-fit: cover;
   border-radius: 5px 5px 0 0;
 }
 
@@ -109,3 +97,19 @@ img {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .image-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    justify-content: space-around; /* Center the images horizontally */
+    align-items: center; /* Align the images vertically */
+  }
+  .card {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .orientation-tracking-gifs {
+    flex: 0 0 50%; /* Makes each image take up 50% of the container's width */
+    max-width: 50%; /* Ensures the image does not exceed 50% of the container's width */
+  }
+}
