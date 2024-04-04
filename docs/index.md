@@ -8,7 +8,7 @@ hide:
 # __Experiences__ 💼
 </center>
 <div class="image-row">
-    <div class="card" onclick="openModal('Modal1')">
+    <div class="card" onclick="openModal('moss-exp')">
         <img src="images/moss_internship.gif" alt="Avatar" class="card-img">
         <div class="container">
             <h3><b>Moss Robotics Inc.</b></h3>
@@ -16,7 +16,7 @@ hide:
             <h6>July 2023 - September 2023</h6>
         </div>
     </div>
-    <div class="card" onclick="openModal('Modal2')">
+    <div class="card" onclick="openModal('pyrc3d-exp')">
         <img src="images/pyrc3d_demo_astar.gif" alt="Avatar" class="card-img">
         <div class="container">
             <h3><b>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</b></h3>
@@ -24,7 +24,7 @@ hide:
             <h6>January 2023 - current</h6>
         </div>
     </div>
-    <div class="card" onclick="openModal('Modal3')">
+    <div class="card" onclick="openModal('quadruped-exp')">
         <img src="images/exp_quadruped.gif" alt="Avatar" class="card-img">
         <div class="container">
             <h3><b>Autonomy Lab at Contextual Robotics Institute UC San Diego</b></h3>
@@ -35,9 +35,9 @@ hide:
 </div>
 
 <!-- Modal structure (hidden initially) -->
-<div id="Modal1" class="modal">
+<div id="moss-exp" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal('Modal1')">&times;</span>
+    <span class="close" onclick="closeModal('moss-exp')">&times;</span>
         <h3><b>Moss Robotics Inc.</b></h3>
         <h4><b>Perception Software Engineer Intern (Autonomous Driving)</b></h4>
         <h6>July 2023 - September 2023</h6>
@@ -53,9 +53,9 @@ hide:
   </div>
 </div>
 
-<div id="Modal2" class="modal">
+<div id="pyrc3d-exp" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal('Modal2')">&times;</span>
+    <span class="close" onclick="closeModal('pyrc3d-exp')">&times;</span>
         <h3><b>Existential Robotics Lab at Contextual Robotics Institute UC San Diego</b></h3>
         <h4><b>Research Software Engineer</b></h4>
         <h6>January 2023 - current</h6>
@@ -68,9 +68,9 @@ hide:
   </div>
 </div>
 
-<div id="Modal3" class="modal">
+<div id="quadruped-exp" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal('Modal3')">&times;</span>
+    <span class="close" onclick="closeModal('quadruped-exp')">&times;</span>
         <h3><b>Autonomy Lab at Contextual Robotics Institute UC San Diego</b></h3>
         <h4><b>Research & Software Engineer Intern</b></h4>
         <h6>March 2022 - September 2022</h6>
@@ -86,13 +86,9 @@ hide:
 
 </br>
 
----
-
 <center>
 # __Projects__ 🛠
-<table>
-<tr>
-  <td>
+<div class="project-card" onclick="openModal('orientation-tracking-exp')">
   <center>
     <h1>Robust Orientation Tracking for Panoramic Stitching: Projected Gradient Descent vs. Extended Kalman Filters</h1>
   </center>
@@ -102,74 +98,70 @@ hide:
       <img src="images/ekf7_dataset3.gif"  class="orientation-tracking-gifs">
       <img src="images/vicon_dataset3.gif" class="orientation-tracking-gifs">
     </div>
-    <br/>
-    <b>Abstract</b><br/>
-    The quest for precise 3D orientation tracking of
-    rotating bodies underpins advancements in robotics, augmented
-    reality, and navigational systems, necessitating methodologies
-    that balance accuracy with computational feasibility. This paper
-    introduces a projected gradient descent (PGD) methodology,
-    innovatively applied to orientation estimation through sensor
-    fusion from a 6-DOF inertial measurement unit (IMU). We
-    undertake a comparative analysis of PGD against established
-    Extended Kalman Filter (EKF) methods—specifically, 4-state and
-    7-state variants—anchored by ground truth data from a VICON
-    motion capture system. Our investigation reveals PGD’s superior
-    accuracy and robustness over EKF approaches across a spectrum of datasets
-    characterized by noise, discontinuities, and dynamic changes.
-    Despite PGD’s reliance on future data, which poses a challenge
-    for real-time application, its performance advantage is notable,
-    especially in complex environments. The 7-state EKF, while
-    outperforming PGD in scenarios with frequent discontinuities,
-    exhibits limitations in smoothness, highlighting a trade-off
-    between responsiveness and continuity. The practical utility of
-    these orientation estimation methods is further demonstrated
-    through the application of panoramic image stitching, where
-    PGD’s enhanced performance is evident, although EKF models
-    provide comparable outcomes under less variable conditions.
-    This study underscores PGD’s potential as a robust alternative
-    for 3D orientation tracking, offering insights into its com-
-    parative performance against traditional EKFs. By delineating
-    the strengths and limitations of PGD and EKF methodologies,
-    this work contributes to the broader discourse on advancing
-    sensor-based orientation estimation, encouraging future efforts
-to optimize PGD for real-time applications.
-  </td>
-</tr>
-</table>
-<table>
-  <tr>
-    <td> <img src="Projects/AutonomousRCCar/images/corneringros.gif" width="400" height"400">
-    <b><center><a href="Projects/AutonomousRCCar/">SELF-DRIVING RC CAR  🚗</a></center></b>
-    <center>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</center>
-    </br>
-    <b><center><a href="Projects/AutonomousRCCar/">👉 Read More</a></center></b>
-    </td>
-    <td> <img src="Projects/GameController/images/spaceinvader.gif" width="400" height"400">
-    <b><center><a href="Projects/GameController/">GAME CONTROLLER  🎮</a></center></b>
-    <center>A game controller made with ESP32, accelerometer, OLED display, and more. It's capable of playing both Space Invader and Mine Sweeper game.          </center>
-    </br>
-    <b><center><a href="Projects/GameController/">👉 Read More</a></center></b>
-    </td>
-    <td> <img src="Projects/SmartWearable/images/wearableNOML.gif" width="400" height"400">
-    <b><center><a href="Projects/SmartWearable/">SMART WEARABLE  ⌚</a></center></b>
-    <center>This wearable has multiple features, such as measuring heart rate and steps count, retrieving real-time weather forecast, and showing time & date.   </center>
-    </br>
-    <b><center><a href="Projects/SmartWearable/">👉 Read More</a></center></b>
-    </td>
-  </tr>
-</table>
-</center>
+</div>
+
+<div id="orientation-tracking-exp" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('orientation-tracking-exp')">&times;</span>
+        <div class="container">
+            <p><b>Abstract</b></p>
+            <p>The quest for precise 3D orientation tracking of
+            rotating bodies underpins advancements in robotics, augmented
+            reality, and navigational systems, necessitating methodologies
+            that balance accuracy with computational feasibility. This paper
+            introduces a projected gradient descent (PGD) methodology,
+            innovatively applied to orientation estimation through sensor
+            fusion from a 6-DOF inertial measurement unit (IMU). We
+            undertake a comparative analysis of PGD against established
+            Extended Kalman Filter (EKF) methods—specifically, 4-state and
+            7-state variants—anchored by ground truth data from a VICON
+            motion capture system. Our investigation reveals PGD’s superior
+            accuracy and robustness over EKF approaches across a spectrum of datasets
+            characterized by noise, discontinuities, and dynamic changes.
+            Despite PGD’s reliance on future data, which poses a challenge
+            for real-time application, its performance advantage is notable,
+            especially in complex environments. The 7-state EKF, while
+            outperforming PGD in scenarios with frequent discontinuities,
+            exhibits limitations in smoothness, highlighting a trade-off
+            between responsiveness and continuity. The practical utility of
+            these orientation estimation methods is further demonstrated
+            through the application of panoramic image stitching, where
+            PGD’s enhanced performance is evident, although EKF models
+            provide comparable outcomes under less variable conditions.
+            This study underscores PGD’s potential as a robust alternative
+            for 3D orientation tracking, offering insights into its comparative
+            performance against traditional EKFs. By delineating
+            the strengths and limitations of PGD and EKF methodologies,
+            this work contributes to the broader discourse on advancing
+            sensor-based orientation estimation, encouraging future efforts
+            to optimize PGD for real-time applications.</p>
+        </div>
+  </div>
+</div>
 
 </br>
 
----
+<div class="image-row">
+    <div class="card">
+        <img src="Projects/AutonomousRCCar/images/corneringros.gif" alt="Avatar" class="card-img">
+        <div class="container">
+            <h3><b><a href="Projects/AutonomousRCCar/">SELF-DRIVING RC CAR  🚗</a></b></h3>
+            <h6>An RC Car, powered by Jetson Nano and a custom ROS package, capable of driving autnomously, keeping itself on track and change lanes when needed.</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="Projects/GameController/images/spaceinvader.gif" alt="Avatar" class="card-img">
+        <div class="container">
+            <h3><b><a href="Projects/GameController/">GAME CONTROLLER  🎮</a></b></h3>
+            <h6>A game controller made with ESP32, accelerometer, OLED display, and more. It's capable of playing both Space Invader and Mine Sweeper game.</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="Projects/SmartWearable/images/wearableNOML.gif" alt="Avatar" class="card-img">
+        <div class="container">
+            <h3><b><a href="Projects/SmartWearable/">SMART WEARABLE  ⌚</a></b></h3>
+            <h6>This wearable has multiple features, such as measuring heart rate and steps count, retrieving real-time weather forecast, and showing time & date.</h6>
+        </div>
+    </div>
+</div>
 
-<center>
-### __Navigating in this website  🗺__
-
-* __`Blog`__ - Where I will post (well hopefully) tech-related stuffs like guides, academics, etc.
-* __`Notes`__ - Hopefully no more writing on papers. You can use my notes freely, and I hope they're useful!
-* __`Projects`__ - Seriously, take a look at them.
-* Press ++slash++ key to search for anything and everything in the __entire__ website.
-</center>
