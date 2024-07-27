@@ -105,6 +105,7 @@ hide:
     <span class="close" onclick="closeModal('orientation-tracking-exp')">&times;</span>
         <div class="container">
             <p><b>Abstract</b></p>
+            <p><a href="paper.pdf">Paper</a></p>
             <p>The quest for precise 3D orientation tracking of
             rotating bodies underpins advancements in robotics, augmented
             reality, and navigational systems, necessitating methodologies
